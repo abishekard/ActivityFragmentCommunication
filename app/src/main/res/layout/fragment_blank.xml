@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment"
+    android:orientation="vertical"
+    android:background="@color/teal_200"
+
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is a fragment"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"
+        android:textColor="#090808"
+        />
+
+    <EditText
+        android:id="@+id/edt_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:hint="enter a text"
+       android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_marginTop="100dp"
+        android:textColor="#090808"
+        android:backgroundTint="@color/black"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="click me"
+        android:layout_gravity="center"
+        android:textColor="#F8F5F5"
+        android:background="#D10909"
+        android:layout_marginTop="100dp"
+        />
+
+</LinearLayout>
